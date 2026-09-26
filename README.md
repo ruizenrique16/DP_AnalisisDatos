@@ -1,6 +1,12 @@
 # DP_AnalisisDatos
 
-## Flujo común de GIT
+
+
+
+
+# DP_AnalisisDatos
+
+## Flujo Comun de Git
 
 1. Traer los cambios
    ```bash
@@ -24,11 +30,13 @@
     ```bash
    git push origin main
 
-# Flujo Docker Comandos
+
+## Flujo Docker Comandos
+
 
 0. navegar a la carpeta
    ```bash
-   cd Sesion_2/Docker_1
+   cd Sesion2/Docker1
 
 1. Crear una imagen docker
    ```bash
@@ -51,3 +59,18 @@
    ```bash
    docker rm -f jupyter # Eliminar contenedor
    docker rmi -f 222f5d7d304c # Eliminar imagen
+
+
+-- pip install -r requirements.txt  # instalar paquetes desde un archivo
+
+
+## Comando Composer
+
+
+0. navegar a la carpeta
+   ```bash
+   cd Sesion3/utils
+
+1. Levantar el servicio
+   ```bash
+   docker compose up
